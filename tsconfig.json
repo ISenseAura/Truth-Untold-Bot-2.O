@@ -1,0 +1,33 @@
+﻿{
+    "compilerOptions": {
+		"target": "esnext",
+		"strict": true,
+		"incremental": true,
+		"outDir": "built",
+		"noEmitOnError": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"typeRoots": [
+		    "node_modules/@types",
+		],
+		"types": [
+			"mocha",
+		    "node",
+		    "websocket"
+		],
+		"lib": [
+		    "esnext"
+		],
+		"plugins": [
+			{
+				"name": "typescript-tslint-plugin",
+				"alwaysShowRuleFailuresAsWarnings": true,
+				"ignoreDefinitionFiles": false,
+				"suppressWhileTypeErrorsPresent": true
+			}
+		]
+	},
+	"include": [
+		"src/**/*.ts"
+	]
+}
