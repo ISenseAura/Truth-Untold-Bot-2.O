@@ -134,9 +134,18 @@ let ttt = new TTT();
 
 const commands: Dict<ICommandDefinition> = {
   /**
-  *COMMANDS FROM TRUTH UNTOLD 
+  *COMMANDS FROM TRUTH UNTOLD (JS version)
   *
   */
+	
+	  git: {
+    command(target, room, user){
+      this.say("**Truth Untold 2.O** code by sirDonovan and Pokem9n$(❤) :- ``https://github.com/Zerapium/Truth-Untold-2.O``");
+    },
+    
+  },
+	
+	
  ttt: {
    command(target, room, user){
      target.trim();
