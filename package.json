@@ -1,0 +1,32 @@
+{
+  "name": "lanette",
+  "version": "0.0.1",
+  "description": "A bot for Pokemon Showdown",
+  "main": "app.js",
+  "scripts": {
+    "test": "tslint -c tslint.json 'src/**/*.ts' && mocha -R dot -u bdd --delay --no-config test/setup.js",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirDonovan/Lanette.git"
+  },
+  "author": "Quinton Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sirDonovan/Lanette/issues"
+  },
+  "homepage": "https://github.com/sirDonovan/Lanette#readme",
+  "dependencies": {
+    "@types/mocha": "5.2.6",
+    "@types/node": "10.14.7",
+    "@types/websocket": "0.0.40",
+    "typescript": "3.5.1",
+    "websocket": "1.0.28"
+  },
+  "devDependencies": {
+    "mocha": "6.1.4",
+    "tslint": "5.17.0",
+    "typescript-tslint-plugin": "0.4.0"
+  }
+}
