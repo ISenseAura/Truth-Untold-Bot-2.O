@@ -25,7 +25,7 @@
     "websocket": "1.0.28"
   },
   "devDependencies": {
-    "mocha": "6.1.4",
+    "mocha": "10.2.0",
     "tslint": "5.17.0",
     "typescript-tslint-plugin": "0.4.0"
   }
